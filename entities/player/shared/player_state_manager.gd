@@ -4,13 +4,11 @@ extends StateManager
 ## Adds player specialised variables and functions.
 
 @export var input: InputManager
-@export var fludd: FluddManager
 @export var movement: PMovement
 
 
 func _custom_passdowns() -> Dictionary:
 	return {
 		&"input": input,
-		&"fludd": fludd,
 		&"movement": movement,
 	}

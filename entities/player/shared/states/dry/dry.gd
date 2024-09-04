@@ -16,4 +16,4 @@ func _trans_rules():
 
 
 func _defer_rules():
-	return &"LazyJump"
+	return &"WaterExit"
